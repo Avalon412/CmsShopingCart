@@ -50,6 +50,7 @@ namespace CmsShopingCartApp.Models
                         Sorting = 100
                     }
                 );
+                context.SaveChanges();
             }
         }
     }
